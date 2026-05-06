@@ -1,0 +1,159 @@
+/* RESET */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+/* BACKGROUND BASE */
+.bg-light {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, #ff1a1a40, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(140px);
+  z-index: 0;
+}
+
+/* SEGUNDA LUZ */
+.bg-accent {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #8b0000, transparent 70%);
+  bottom: 10%;
+  right: 10%;
+  filter: blur(120px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* NOISE */
+.bg-noise {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 3px 3px;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+/* HEADER */
+.hero-top {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.logo {
+  font-weight: bold;
+  color: #ff1a1a;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  opacity: 0.7;
+}
+
+.nav span {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav span:hover {
+  color: #ff1a1a;
+}
+
+/* CENTRO */
+.hero-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* TÍTULO */
+.title {
+  font-size: 56px;
+  line-height: 1.2;
+}
+
+/* CONTORNO */
+.outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255,255,255,0.6);
+}
+
+/* TEXTO NORMAL */
+.solid {
+  color: white;
+  font-weight: bold;
+}
+
+.red {
+  color: #ff1a1a;
+}
+
+/* SUBTEXTO */
+.subtitle {
+  margin-top: 10px;
+  color: rgba(255,255,255,0.7);
+}
+
+/* BOTÕES */
+.actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.primary {
+  background: #ff1a1a;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary:hover {
+  background: #ff0000;
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ghost:hover {
+  border-color: #ff1a1a;
+  color: #ff1a1a;
+}

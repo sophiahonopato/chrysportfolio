@@ -727,39 +727,35 @@ body {
     font-size: 4rem;
   }
 
-  .hero-side-image {
-    position: relative;
+.hero-side-image {
+  position: relative;
 
-    width: 220px;
-    height: 220px;
+  width: 280px;
+  height: 360px;
 
-    margin: 50px auto 0;
+  margin-top: 60px;
 
-    border-radius: 20%;
+  border-radius: 30px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    opacity: 1;
+  opacity: 1;
 
-    right: auto;
-    top: auto;
+  right: auto;
+  top: auto;
 
-    mask-image: none;
+  mask-image: none;
 
-    border: 2px solid rgba(255,0,0,0.25);
+  border: 1px solid rgba(255,0,0,0.18);
 
-    box-shadow:
-      0 0 30px rgba(255,0,0,0.25),
-      0 0 80px rgba(255,0,0,0.12);
-  }
+  box-shadow:
+    0 0 40px rgba(255,0,0,0.15),
+    0 0 100px rgba(255,0,0,0.08);
 
-  .mobile-menu a {
-    font-size: 2.2rem;
-  }
+  background: #111;
+ }
+}
 
-  .primary-btn {
-    width: 100%;
-
-    justify-content: center;
-  }
+.hero {
+  padding-bottom: 30px;
 }

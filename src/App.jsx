@@ -257,7 +257,7 @@ export default function App() {
           <h1>
             CHRYSTIAN
             <br />
-            ALEXANDRE
+            <span>ALEXANDRE</span>
           </h1>
 
           <p>

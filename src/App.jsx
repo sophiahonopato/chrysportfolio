@@ -185,7 +185,7 @@ export default function App() {
         </button>
       </nav>
 
-      {/* MENU MOBILE */}
+      {/* MOBILE MENU */}
 
       <motion.div
         className={`mobile-menu ${menuOpen ? "open" : ""}`}
@@ -228,6 +228,17 @@ export default function App() {
         <div className="blur blur-1"></div>
         <div className="blur blur-2"></div>
 
+        {/* FOTO DESKTOP */}
+
+        <motion.div
+          className="hero-side-image desktop-image"
+          initial={{ opacity: 0, x: 120 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <img src="/chrystian.png" alt="Chrystian" />
+        </motion.div>
+
         {/* TEXTO */}
 
         <motion.p
@@ -257,10 +268,10 @@ export default function App() {
           digitais que conectam marcas, pessoas e comunidades.
         </motion.p>
 
-        {/* FOTO */}
+        {/* FOTO MOBILE */}
 
         <motion.div
-          className="hero-side-image"
+          className="hero-side-image mobile-image"
           initial={{ opacity: 0, y: 80 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}

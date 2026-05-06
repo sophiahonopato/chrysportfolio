@@ -25,21 +25,24 @@ const works = [
     title: "Pagode na Disciplina",
     period: "2023 - 2024",
     type: "Social Media",
-    desc: "Gestão de redes sociais, planejamento de conteúdo, cobertura de eventos e interação com o público.",
+    instagram: "@pagodenadisciplina",
+    desc: "Gestão de redes sociais, planejamento de conteúdo, cobertura de eventos, identidade visual e interação com o público.",
   },
 
   {
     title: "Emunah Pratas",
     period: "2023 - 2024",
     type: "Social Media",
-    desc: "Criação de conteúdo digital com foco em identidade visual, engajamento e posicionamento de marca.",
+    instagram: "@emunahpratas",
+    desc: "Criação de conteúdo digital com foco em estética visual, engajamento, posicionamento de marca e estratégias de crescimento.",
   },
 
   {
     title: "Belo Preparo",
     period: "2024 - 2025",
     type: "Projeto Digital",
-    desc: "Projeto voltado à culinária sustentável com desenvolvimento de site e conteúdo educativo.",
+    instagram: "@belopreparo",
+    desc: "Projeto voltado à culinária sustentável com desenvolvimento de conteúdo visual, comunicação digital e identidade estratégica.",
   },
 ];
 
@@ -49,37 +52,37 @@ const projects = [
   {
     title: "Produção de Vídeos",
     icon: <FaVideo />,
-    desc: "Desenvolvimento de vídeos com foco em comunicação, criatividade, edição e identidade visual.",
+    desc: "Produção de vídeos criativos com foco em estética visual, comunicação digital e presença nas redes sociais.",
   },
 
   {
     title: "Instagram Escolar",
     icon: <FaUsers />,
-    desc: "Participação na gestão colaborativa do Instagram escolar com planejamento e criação de conteúdo.",
+    desc: "Participação ativa na criação de conteúdo, identidade visual e gestão colaborativa do Instagram escolar.",
   },
 
   {
     title: "YouTube",
     icon: <FaGlobe />,
-    desc: "Criação de conteúdos autorais explorando criatividade, presença digital e identidade própria.",
+    desc: "Criação de conteúdos autorais explorando criatividade, edição, identidade visual e comunicação digital.",
   },
 
   {
     title: "Projeto EBAC / Figma",
     icon: <FaLaptopCode />,
-    desc: "Projeto desenvolvido no Figma com foco em design visual, interface e organização estética.",
+    desc: "Projeto visual desenvolvido no Figma com foco em composição estética, experiência visual e criatividade.",
   },
 
   {
     title: "Revista Vértice",
     icon: <FaBookOpen />,
-    desc: "Projeto interdisciplinar envolvendo comunicação, criação de conteúdo e pensamento crítico.",
+    desc: "Projeto interdisciplinar envolvendo comunicação, criatividade, escrita visual e produção de conteúdo.",
   },
 
   {
     title: "Projeto PLURAL",
     icon: <FaPaintBrush />,
-    desc: "Projeto social voltado ao desenvolvimento de jovens através da comunicação e tecnologia.",
+    desc: "Projeto social voltado ao desenvolvimento de jovens através da comunicação, criatividade e tecnologia.",
   },
 ];
 
@@ -103,6 +106,8 @@ const skills = [
   "Figma",
   "Estratégia Digital",
   "Produção de Vídeos",
+  "Edição",
+  "Comunicação Visual",
 ];
 
 export default function App() {
@@ -239,23 +244,28 @@ export default function App() {
           <img src="/chrystian.png" alt="Chrystian" />
         </motion.div>
 
-        {/* TEXTO */}
+        {/* INTRO */}
 
-        <motion.p
-          className="eyebrow"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
-          PORTFÓLIO • SOCIAL MEDIA
-        </motion.p>
-
-        <motion.h1
-          initial={{ opacity: 0, y: 90 }}
+        <motion.div
+          className="hero-intro"
+          initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Chrystian <span>Alexandre</span>
-        </motion.h1>
+          <span>PORTFÓLIO</span>
+
+          <h1>
+            CHRYSTIAN
+            <br />
+            ALEXANDRE
+          </h1>
+
+          <p>
+            SOCIAL MEDIA • DESIGN • DIGITAL
+          </p>
+        </motion.div>
+
+        {/* TEXTO */}
 
         <motion.p
           className="hero-description"
@@ -265,7 +275,8 @@ export default function App() {
         >
           Social Media com foco em gestão de redes sociais,
           criação de conteúdo, identidade visual e estratégias
-          digitais que conectam marcas, pessoas e comunidades.
+          digitais que conectam marcas, pessoas e comunidades
+          através da criatividade e comunicação visual.
         </motion.p>
 
         {/* FOTO MOBILE */}
@@ -300,29 +311,27 @@ export default function App() {
           <p>01 / SOBRE</p>
 
           <h2>
-            Comunicação visual com estratégia e presença.
+            Comunicação visual com estratégia e presença digital.
           </h2>
         </div>
 
         <div className="glass-card">
           <p>
             Tenho 17 anos e atuo como Social Media,
-            com experiência em gestão de redes sociais,
-            criação de conteúdo e desenvolvimento de
-            estratégias digitais.
+            desenvolvendo projetos voltados à comunicação
+            digital, identidade visual e produção criativa.
           </p>
 
           <p>
-            Já trabalhei em projetos sociais e empresas,
-            criando comunicação adaptável para diferentes
-            públicos e objetivos.
+            Já participei de projetos sociais, páginas digitais
+            e iniciativas voltadas à criação de conteúdo,
+            gestão de redes sociais e construção de presença online.
           </p>
 
           <p>
-            Tenho interesse em design, cultura digital
-            e construção de identidade visual,
-            buscando sempre criar conteúdos que
-            conectem e gerem impacto.
+            Tenho interesse em design, cultura digital,
+            branding, edição visual e estratégias criativas
+            capazes de gerar conexão, impacto e autenticidade.
           </p>
 
           <div className="skills">
@@ -368,7 +377,7 @@ export default function App() {
         <div className="title-area center">
           <p>03 / EXPERIÊNCIAS</p>
 
-          <h2>Projetos e trabalhos.</h2>
+          <h2>Projetos e trabalhos desenvolvidos.</h2>
         </div>
 
         <div className="work-list">
@@ -395,6 +404,10 @@ export default function App() {
               <h3>{work.title}</h3>
 
               <span>{work.period}</span>
+
+              <p className="project-user">
+                {work.instagram}
+              </p>
 
               <h4>{work.desc}</h4>
             </motion.article>
@@ -469,3 +482,4 @@ export default function App() {
     </main>
   );
 }
+

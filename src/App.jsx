@@ -228,17 +228,6 @@ export default function App() {
         <div className="blur blur-1"></div>
         <div className="blur blur-2"></div>
 
-        {/* FOTO LATERAL */}
-
-        <motion.div
-          className="hero-side-image"
-          initial={{ opacity: 0, x: 120 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-        >
-          <img src="/chrystian.png" alt="Chrystian" />
-        </motion.div>
-
         {/* TEXTO */}
 
         <motion.p
@@ -267,6 +256,19 @@ export default function App() {
           criação de conteúdo, identidade visual e estratégias
           digitais que conectam marcas, pessoas e comunidades.
         </motion.p>
+
+        {/* FOTO */}
+
+        <motion.div
+          className="hero-side-image"
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <img src="/chrystian.png" alt="Chrystian" />
+        </motion.div>
+
+        {/* BOTÃO */}
 
         <motion.a
           href="#works"

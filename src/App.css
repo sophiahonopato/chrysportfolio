@@ -50,7 +50,6 @@ body {
 
 .progress {
   position: fixed;
-
   top: 0;
   left: 0;
 
@@ -179,42 +178,6 @@ body {
     radial-gradient(circle at 80% 30%, rgba(255,0,0,0.18), transparent 35%),
     radial-gradient(circle at 20% 80%, rgba(139,0,0,0.25), transparent 30%),
     #050505;
-}
-
-/* HERO INTRO */
-
-.hero-intro {
-  position: relative;
-
-  z-index: 2;
-
-  margin-bottom: 50px;
-}
-
-.hero-intro span {
-  color: red;
-
-  letter-spacing: 6px;
-
-  font-size: 0.9rem;
-}
-
-.hero-intro h1 {
-  font-size: clamp(5rem, 12vw, 11rem);
-
-  line-height: 0.9;
-
-  margin-top: 20px;
-
-  font-weight: 900;
-}
-
-.hero-intro p {
-  margin-top: 25px;
-
-  color: #999;
-
-  letter-spacing: 4px;
 }
 
 /* FOTO DESKTOP */
@@ -349,12 +312,44 @@ body {
   }
 }
 
-/* HERO DESCRIPTION */
+/* TEXT */
+
+.eyebrow {
+  color: red;
+
+  letter-spacing: 5px;
+
+  margin-bottom: 20px;
+
+  z-index: 2;
+
+  position: relative;
+}
+
+.hero h1 {
+  font-size: clamp(4rem, 9vw, 9rem);
+
+  line-height: 0.9;
+
+  z-index: 2;
+
+  position: relative;
+
+  max-width: 700px;
+}
+
+.hero span {
+  color: red;
+
+  text-shadow:
+    0 0 25px rgba(255,0,0,0.8),
+    0 0 70px rgba(255,0,0,0.4);
+}
 
 .hero-description {
   max-width: 520px;
 
-  margin-top: 10px;
+  margin-top: 30px;
 
   color: #bbb;
 
@@ -392,15 +387,9 @@ body {
 
   box-shadow:
     0 0 30px rgba(255,0,0,0.35);
-
-  transition: 0.3s;
 }
 
-.primary-btn:hover {
-  transform: translateY(-5px);
-}
-
-/* SECTIONS */
+/* ABOUT */
 
 .about,
 .education,
@@ -409,8 +398,6 @@ body {
 .contact {
   padding: 130px 70px;
 }
-
-/* ABOUT */
 
 .about {
   display: grid;
@@ -540,7 +527,7 @@ body {
 }
 
 .work-card {
-  min-height: 450px;
+  min-height: 420px;
 
   padding: 35px;
 
@@ -580,14 +567,6 @@ body {
 
 .work-card span {
   color: #ff5c5c;
-}
-
-.project-user {
-  margin-top: 12px;
-
-  color: #999;
-
-  font-size: 0.95rem;
 }
 
 .work-card h4 {
@@ -758,14 +737,6 @@ body {
     max-width: 100%;
   }
 
-  .hero-intro h1 {
-    font-size: 4rem;
-  }
-
-  .hero-intro {
-    margin-bottom: 40px;
-  }
-
   .about {
     grid-template-columns: 1fr;
   }
@@ -774,6 +745,10 @@ body {
   .work-list,
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
   }
 
   .desktop-image {

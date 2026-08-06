@@ -1,16 +1,59 @@
-# React + Vite
+# ✨ Chrys Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Um portfólio moderno desenvolvido para apresentar projetos, habilidades e a trajetória de uma desenvolvedora Front-end de forma criativa e profissional.**
 
-Currently, two official plugins are available:
+## 💼 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Chrys Portfolio** é um portfólio pessoal criado para reunir projetos, experiências e competências em desenvolvimento web em um único ambiente. O objetivo é oferecer uma navegação intuitiva e uma identidade visual marcante, destacando tanto as habilidades técnicas quanto a criatividade aplicada em cada projeto.
 
-## React Compiler
+Com um design responsivo e uma estrutura organizada, o portfólio foi pensado para proporcionar uma ótima experiência a recrutadores, clientes e profissionais da área de tecnologia.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+<div align="left">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=FFD62E)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+
+</div>
+
+## ✨ Funcionalidades
+
+* 👩‍💻 Apresentação pessoal e profissional
+* 📂 Exibição de projetos desenvolvidos
+* 🛠️ Seção de habilidades e tecnologias
+* 📄 Área para experiências e certificações
+* 📱 Interface totalmente responsiva
+* 🎨 Design moderno e elegante
+* 📬 Espaço para contato e redes sociais
+
+## 🎯 Objetivo
+
+Criar um portfólio que represente minha evolução como desenvolvedora, reunindo projetos e experiências em uma interface profissional, responsiva e visualmente atrativa, fortalecendo minha presença no mercado de tecnologia.
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento foram aplicados conceitos como:
+
+* Desenvolvimento com React e Vite
+* Componentização e reutilização de código
+* Estruturação de aplicações Front-end
+* Responsividade para diferentes dispositivos
+* Organização e arquitetura de projetos
+* Versionamento com Git e GitHub
+* Princípios de UI/UX e design de interfaces
+
+---
+
+<div align="center">
+
+### 🚀 Transformando ideias em experiências digitais.
+
+**Desenvolvido com 💜 por Sophia Honorato.**
+
+</div>
